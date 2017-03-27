@@ -1,0 +1,103 @@
+*{
+  padding: 0 auto;
+  margin: 0;
+}
+
+#topMenu{
+  background-color: cadetblue;
+  height: 50px;
+  line-height: 50px;
+}
+
+#mobileOme{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+#topMenu ul li {
+  display: inline-block;
+}
+
+#topMenu ul li a{
+  color: white;
+  font-size: 1.1em;
+}
+
+.panels{
+  height:400px;
+}
+
+.container-fluid{
+  padding-top: 100px;
+}
+
+.col-md-4{
+  padding:10px;
+}
+.appTitle{
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+#presentationText {
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1.1em;
+}
+#DescriptionArticle{
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 2%;
+}
+.firstApp{
+    margin-right: 10%;
+    font-size: 1.1em;
+}
+.secondApp{
+    margin-right: 10%;
+    font-size: 1.1em;
+}
+.thirdApp{
+    font-size: 1.1em;
+}
+.firstApp img{
+    height: 100%;
+    width: 100%;
+}
+
+.secondApp img{
+    height: 100%;
+    width: 100%;
+}
+
+.thirdApp img{
+    height: 100%;
+    width: 75%;
+}
+
+.contactText {
+    text-align: center;
+}
+.panels{
+  height:200px;
+}
+.contactSection{
+    margin-bottom: 4.8%;
+}
+.contactBtn{
+  margin-left: 40%;
+}
+.formContact{
+  height: 100%;
+}
+.mapContact img{
+    width: 100%;
+    padding-left: 10%;
+}
+footer{
+  background-color: #3c3c3c;
+  color: white;
+  font-size: 1.1em;
+}

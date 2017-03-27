@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MobileOme</title>
+    <link rel="stylesheet" type="text/css" href="./bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <section id="topMenu" class="col-md-12">
+                <article  id="mobileOme" class="col-md-3">
+                    MobileOme
+                </article>
+                <ul class="col-md-9">
+                    <li class="col-md-3 col-md-offset-2"><a href="/">Accueil</a></li>
+                    <li class="col-md-3"><a href="/realisations">Realisations</a></li>
+                    <li class="col-md-3"><a href="/contact">Contact</a></li>
+                </ul>
+            </section>
+        </nav>
+    </header>
+
+    <section class="container-fluid">
+        <article class="contactText">
+            <h2>Contact</h2>
+            <p>
+                Une question ou des remarques sur nos produits ? Envoyez nous un message ! <br>
+                Nous vous répondrons dans les plus bref délais !
+            </p>
+        </article>
+    </section>
+
+    <section class="container-fluid contactSection">
+        <article class="col-md-3 formContact">
+            <form method="post" action="#">
+                <div class="form-group">
+                    <label>Email : </label>
+                    <input type="text" class="form-control" placeholder="Tapez votre email">
+                </div>
+                <div class="form-group">
+                    <label>Message : </label>
+                    <textarea class="form-control" rows="5" placeholder="Tapez votre message"></textarea>
+                </div>
+                <input type="button" class="btn btn-default contactBtn" value="Envoyer">
+            </form>
+        </article>
+        <article class="col-md-9 mapContact">
+            <img src="./img/QG.png">
+        </article>
+    </section>
+
+    <footer class="footer-bottom col-md-12">
+        <section class="col-md-12">
+            <article class="col-md-6">
+                <h3>Adresse :</h3>
+                <p>139, rue des Pyrénnées, 75020 Paris</p>
+            </article>
+            <article class="col-md-6">
+                <h3>Contact :</h3>
+                <p>Email : mobileOme@contact.com</p>
+                <p>Tel : 0123456789</p>
+            </article>
+        </section>
+    </footer>
+    <script src="./bower_components/jquery/dist/jquery.js"></script>
+    <script src="./bower_components/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
